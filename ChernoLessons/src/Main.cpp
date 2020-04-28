@@ -1,6 +1,13 @@
-#include <iostream>
+#include "Main.h"
+
 
 int main()
 {
-	std::cout << "Hello" << std::endl;
+
+	std::string var = "Hello";
+	term(var);
+	
+	var += " Michael";
+	term(var);
+	std::cin.get();
 }
